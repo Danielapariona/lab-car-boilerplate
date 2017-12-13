@@ -1,1 +1,97 @@
 /* Los estilos de tu proyecto */
+
+.background-brand {
+  background-color: #f8c140;  
+}
+
+footer {
+  background-color: #201f21;
+}
+
+body {
+  color: #fff;
+}
+
+/* Mis clases */
+.background-header {
+  background-image: url(../assets/images/taxi.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  height: 480px;
+}
+
+.background-drive {
+  background-image: url(../assets/images/conduce.jpg);
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-size: cover;
+  height: 480px;
+}
+
+.border {
+  border: 1px solid #fff;
+  margin: 25px 0 25px 0;
+}
+
+.center-container {
+  transform: translateY(50%);
+}
+
+.padding {
+  padding: 15px;
+}
+
+.border-text {
+  border: 1px solid #fff;
+  padding: 8px;
+  display: inline-block;
+  border-radius: 5px;
+}
+
+.border-text p{ 
+  margin: 0;
+}
+
+.location {
+  margin: 20px 0;
+}
+
+.location img{
+  margin-right: 20px;
+}
+
+.brand-border {
+  border-bottom: 1px solid;
+  margin-top: 15px;
+}
+
+.brand-border img {
+  margin-bottom: 15px;
+  margin-bottom: 15px;
+}
+
+.list li{
+  margin: 15px 0;
+}
+
+.logo {
+  margin: 25px 0;
+}
+
+.social-networks {
+  margin: 20px 0;
+}
+
+.social-networks i {
+  font-size: 20px;
+}
+ 
+.phone {
+  margin: 2em 0;
+}
+
+/* */
+.jumbotron {
+  margin-bottom: 0;
+}
