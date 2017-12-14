@@ -18,7 +18,7 @@ body {
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
-  height: 92vh;
+  height: 95vh;
 }
 
 .background-drive {
@@ -30,7 +30,7 @@ body {
 }
 
 .center-container {
-
+  transform: translateY(45%);
 }
 
 .center {
@@ -100,6 +100,24 @@ body {
  
 .phone {
   margin: 2em 0;
+}
+
+p.line::before {
+  display: inline-block;
+  height: 1px;
+  margin-right: 60px;
+  content: " ";
+  background-color: white;
+  width: 120px;
+}
+
+p.line::after {
+  display: inline-block;
+  height: 1px;
+  margin-left: 60px;
+  content: " ";
+  background-color: white;
+  width: 120px;
 }
 
 /* */
