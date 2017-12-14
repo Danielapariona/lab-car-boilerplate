@@ -29,14 +29,9 @@ body {
   height: 480px;
 }
 
-.center-container {
-  transform: translateY(45%);
-}
-
 .center {
   display: flex;
   flex-direction: column;
-  height: 100%;
   justify-content: center;
 }
 
@@ -46,7 +41,7 @@ body {
 }
 
 .padding {
-  padding: 15px;
+  padding: 20px;
 }
 
 .border-text {
@@ -66,10 +61,6 @@ body {
 
 .location img{
   margin-right: 20px;
-}
-
-.border {
-  border: 1px solid #fff;
 }
 
 .brand-border {
@@ -102,41 +93,35 @@ body {
   margin: 2em 0;
 }
 
+.line {
+  margin: 21px 0;
+}
+
 p.line::before {
   display: inline-block;
   height: 1px;
-  margin-right: 60px;
+  margin-right: 25px;
   content: " ";
   background-color: white;
-  width: 120px;
+  width: 110px;
 }
 
 p.line::after {
   display: inline-block;
   height: 1px;
-  margin-left: 60px;
+  margin-left: 25px;
   content: " ";
   background-color: white;
-  width: 120px;
+  width: 110px;
 }
 
-/* */
-.jumbotron {
-  margin-bottom: 0;
-}
+/* Sobreescribiendo clases*/
 
 p {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .navbar-default {
   background-color: #fff;
   border-color: none;
-}
-/**/
-@media (min-width: 768px) {
-  .background-header {
-   /*  height: 700px; */
-  }
-
 }
