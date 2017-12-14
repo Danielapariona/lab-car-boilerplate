@@ -89,7 +89,7 @@ body {
   font-size: 20px;
 }
  
-.phone {
+.phone-img {
   margin: 2em 0;
 }
 
@@ -115,13 +115,47 @@ p.line::after {
   width: 110px;
 }
 
+.border-xs-phone {
+  border: 1px solid;
+  margin: 2em 0;
+  padding: 2em 0;
+}
+
+
 /* Sobreescribiendo clases*/
 
 p {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 .navbar-default {
   background-color: #fff;
   border-color: none;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+
+/* Responsive */
+@media (min-width: 768px), (min-width: 992px) {
+  .flex {
+    display: flex;
+  }
+
+  .item-center {
+    align-self: center;
+  }
+
+  .border-phone {
+    border: 1px solid #fff;
+    margin: 3em 15em 3em -1.2em;
+  }
+
+  .border-xs-phone {
+    border: none;
+    margin: initial;
+  }
+  
 }
