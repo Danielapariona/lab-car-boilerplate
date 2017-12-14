@@ -121,6 +121,9 @@ p.line::after {
   padding: 2em 0;
 }
 
+.border {
+  border: 1px solid #fff;
+}
 
 /* Sobreescribiendo clases*/
 
@@ -137,6 +140,16 @@ h2 {
   margin-top: 0;
 }
 
+.btn-brand {
+  color: #fff;
+  background-color: #f8c140;
+  border-color: none;
+}
+
+p a.btn {
+  font-size: 18px;
+  font-weight: 800;
+}
 
 /* Responsive */
 @media (min-width: 768px), (min-width: 992px) {
