@@ -127,9 +127,9 @@ p.line::after {
 
 .profile {
   border: 1px solid;
-    display: inline-block;
-    border-radius: 100%;
-    margin: 1em 0 2em 0;
+  display: inline-block;
+  border-radius: 100%;
+  margin: 1em 0 2em 0;
 }
 
 .profile img {
@@ -167,6 +167,9 @@ p.line::after {
   margin: 0 1em 1em 0;
 }
 
+.map {
+  
+}
 
 /* Sobreescribiendo clases*/
 .modal-header {
