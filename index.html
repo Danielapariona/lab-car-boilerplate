@@ -34,7 +34,36 @@
                 <ul class="nav navbar-nav navbar-right">
                   <li><a href="#">Viaja</a></li>
                   <li><a href="#">Conduce</a></li>
-                  <li><a href="#">Inicia sesión</a></li>
+                  <li><a href="#" data-toggle="modal" data-target="#login">Inicia sesión</a></li>
+                  <div class="modal fade" id="login" tabindex="-1" role="dialog">
+                    <div class="modal-dialog" role="document">
+                      <div class="modal-content">
+                        <div class="modal-header">
+                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                          <h4 class="modal-title" id="myModalLabel">Iniciar sesión</h4>
+                        </div>
+                        <div class="modal-body">
+                          <form class="form text-center">
+                            <div class="profile">
+                              <img src="assets/images/profile.jpg" alt="">
+                            </div>
+                            <div class="content-modal">
+                              <div class="input-group form-group">
+                                <span class="glyphicon glyphicon-user input-group-addon" id="basic-addon1" class="" aria-hidden="true"></span>
+                                <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
+                              </div>
+                              <div class="input-group form-group">
+                                <span class="glyphicon glyphicon-lock input-group-addon" id="basic-addon1" class="" aria-hidden="true"></span>
+                                <input type="text" class="form-control" placeholder="Password" aria-describedby="basic-addon1">
+                              </div>
+                              <button type="submit" class="btn btn-primary">Iniciar sesión</button>
+                              <p class="text-center"><br>¿Olvidaste tu contraseña? <a href="#">Click aquí</a></p>
+                            </div>
+                          </form>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </ul>
               </div>
             </div>

@@ -12,6 +12,8 @@ body {
   color: #fff;
 }
 
+
+
 /* Mis clases */
 .background-header {
   background-image: url(../assets/images/taxi.jpg);
@@ -125,10 +127,34 @@ p.line::after {
   border: 1px solid #fff;
 }
 
+.profile {
+  border: 1px solid;
+    display: inline-block;
+    border-radius: 100%;
+    margin: 1em 0 2em 0;
+}
+
+.profile img {
+  border-radius: 100%
+}
+
+.content-modal {
+  width: 35rem;
+  margin: 1em auto;
+  background-color: #f2f2f1;
+  padding: 28px;
+
+}
+
 /* Sobreescribiendo clases*/
 
+.modal-content {
+  background-color: #05a4b1;
+}
+
+
 p {
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .navbar-default {
@@ -149,6 +175,14 @@ h2 {
 p a.btn {
   font-size: 18px;
   font-weight: 800;
+}
+
+.glyphicon {
+  top: 0;
+}
+
+.modal-body {
+  color: #000;
 }
 
 /* Responsive */
