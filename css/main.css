@@ -193,10 +193,21 @@ p a.btn {
   color: #000;
 }
 
+.social {
+  float: right;
+}
+
+
+
 /* Responsive */
 @media (min-width: 768px), (min-width: 992px) {
+  
   .flex {
     display: flex;
+  }
+
+  .position-end {
+    align-self: flex-end;
   }
 
   .item-center {
@@ -212,5 +223,8 @@ p a.btn {
     border: none;
     margin: initial;
   }
+
+
+
   
 }
