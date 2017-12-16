@@ -83,7 +83,6 @@
             <h2>Disfruta del viaje<br>Eres el dueño de tu tiempo</h2>
             <p>Viaja con Labcar</p>
             <p><a class="btn btn-default text-uppercase" href="#" role="button" data-toggle="modal" data-target="#sign-up">Regístrate</a></p>
-
             <div class="modal fade" tabindex="-1" role="dialog" id="sign-up">
               <div class="modal-dialog" role="document">
                 <div class="modal-content sign-up">
@@ -136,7 +135,7 @@
                         <div class="col-sm-12">
                           <button type="submit" class="btn btn-block btn btn-info btn-lg">Enviar</button>
                         </div>
-                        </div>
+                      </div>
                     </form>
                   </div>
                   <div class="modal-footer">
@@ -145,10 +144,49 @@
                 </div><!-- /.modal-content -->
               </div><!-- /.modal-dialog -->
             </div><!-- /.modal -->
-
-
             <p class="line">o bien</p>
-            <p><a class="btn btn-default" href="#" role="button">Conviértete en un conductor</a></p>
+            <p><a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#drive">Conviértete en un conductor</a></p>
+            <div class="modal fade" tabindex="-1" role="dialog" id="drive">
+              <div class="modal-dialog" role="document">
+                <div class="modal-content sign-up">
+                  <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  </div>
+                  <div class="modal-body">
+                    <form>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">¿Tienes vehículo de 4 puertas?</label>
+                        <select class="form-control">
+                          <option>Sí</option>
+                          <option>No</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Marca</label>
+                        <select class="form-control">
+                          <option>Modelo 1</option>
+                          <option>Modelo 2</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Año</label>
+                        <select class="form-control">
+                          <option>2017</option>
+                          <option>2016</option>
+                          <option>2015</option>
+                        </select>
+                      </div>
+                      <div class="form-group">
+                        <label for="exampleInputEmail1">Número de matrícula</label>
+                        <input type="email" class="form-control" id="inputEmail3" placeholder="Número de matrícula">
+                      </div>
+                      <p>La información de la matrícula ayuda a los clientes a identificar tu vehículo.</p>
+                      <button type="submit" class="btn btn-block btn btn-info btn-lg">Enviar</button>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
