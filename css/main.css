@@ -65,13 +65,11 @@ body {
   margin-right: 20px;
 }
 
-.brand-border {
-  border-bottom: 1px solid;
+.brand-img {
   margin-top: 15px;
 }
 
-.brand-border img {
-  margin-bottom: 15px;
+.brand-img img {
   margin-bottom: 15px;
 }
 
@@ -153,13 +151,27 @@ p.line::after {
   background-color: #05a4b1;
 }
 
+.glyphicon-chevron-down {
+  top: 2px !important;
+  margin: 0 10px;
+}
+
+.background-black {
+  background-color: #000;
+  color: #fff;
+}
+
+.border-footer {
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #fff;
+  margin: 0 1em 1em 0;
+}
+
+
 /* Sobreescribiendo clases*/
-
-
 .modal-header {
   border-bottom: none;
 }
-
 
 p {
   font-size: 16px;
@@ -197,6 +209,10 @@ p a.btn {
   float: right;
 }
 
+.close {
+  color: #fff;
+  opacity: initial;
+}
 
 
 /* Responsive */
@@ -223,8 +239,4 @@ p a.btn {
     border: none;
     margin: initial;
   }
-
-
-
-  
 }
