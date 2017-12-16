@@ -143,13 +143,21 @@ p.line::after {
   margin: 1em auto;
   background-color: #f2f2f1;
   padding: 28px;
+}
 
+.sign-up {
+  background-color: #acacac;
+}
+
+.login {
+  background-color: #05a4b1;
 }
 
 /* Sobreescribiendo clases*/
 
-.modal-content {
-  background-color: #05a4b1;
+
+.modal-header {
+  border-bottom: none;
 }
 
 
