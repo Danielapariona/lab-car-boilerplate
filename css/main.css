@@ -20,7 +20,7 @@ body {
   background-repeat: no-repeat;
   background-position: center bottom;
   background-size: cover;
-  height: 95vh;
+  height: 100vh;
 }
 
 .background-drive {
@@ -75,6 +75,12 @@ body {
 
 .list li{
   margin: 15px 0;
+  display: table;
+}
+
+.list li:hover {
+  cursor: pointer;
+  color: #f8c140;
 }
 
 .logo {
@@ -167,8 +173,12 @@ p.line::after {
   margin: 0 1em 1em 0;
 }
 
-.map {
-  
+.position-fixed {
+  position: fixed;
+  width: 100%;
+  padding-left: 0;
+  padding-right: 0;
+  z-index: 1000;
 }
 
 /* Sobreescribiendo clases*/
