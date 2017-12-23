@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -12,91 +13,76 @@
   <link rel="stylesheet" type="text/css" href="css/main.css">
   <title>LabCar</title>
 </head>
+
 <body>
   <header>
-    <div class="container-fluid position-fixed">
-      <div class="row">
-        <div class="col-xs-12 col-md-12">
-          <nav class="navbar-default">
-            <div class="container-fluid">
-              <div class="navbar-header">
-                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
-                  <span class="sr-only">Toggle navigation</span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                  <span class="icon-bar"></span>
-                </button>
-                <a class="" href="#">
-                  <img alt="Brand" src="assets/images/logoForma.png" class="img-responsive navbar-brand">
-                </a>
-              </div>
-              <!-- Collect the nav links, forms, and other content for toggling -->
-              <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                  <li><a href="#">Viaja</a></li>
-                  <li><a href="#">Conduce</a></li>
-                  <li><a href="#" data-toggle="modal" data-target="#login">Inicia sesión</a></li>
-                  <div class="modal fade" id="login" tabindex="-1" role="dialog">
-                    <div class="modal-dialog" role="document">
-                      <div class="modal-content login">
-                        <div class="modal-header">
-                          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
-                        </div>
-                        <div class="modal-body">
-                          <form class="form text-center">
-                            <div class="profile">
-                              <img src="assets/images/profile.jpg" alt="">
-                            </div>
-                            <div class="content-modal">
-                              <div class="input-group form-group">
-                                <span class="glyphicon glyphicon-user input-group-addon" id="basic-addon1" class="" aria-hidden="true"></span>
-                                <input type="text" class="form-control" placeholder="Username" aria-describedby="basic-addon1">
-                              </div>
-                              <div class="input-group form-group">
-                                <span class="glyphicon glyphicon-lock input-group-addon" id="basic-addon1" class="" aria-hidden="true"></span>
-                                <input type="text" class="form-control" placeholder="Password" aria-describedby="basic-addon1">
-                              </div>
-                              <button type="submit" class="btn btn-primary">Iniciar sesión</button>
-                              <p class="text-center"><br>¿Olvidaste tu contraseña? <a href="#">Click aquí</a></p>
-                            </div>
-                          </form>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </ul>
-              </div>
-            </div>
-          </nav>
+    <nav class="navbar-default">
+      <div class="container-fluid">
+        <div class="navbar-header ">
+          <a class="pull-right" href="#">
+            <img class="img-responsive navbar-brand" src="assets/images/logoForma.png" alt="">
+          </a>
+          <button class="navbar-toggle pull-left collapsed" type="button" data-toggle="collapse" data-target="#navbar-content" aria-controls="navbar-content"
+            aria-expanded="false" aria-label="Toggle navigation">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+        </div>
+        <div class="collapse navbar-collapse" id="navbar-content">
+          <ul class="navbar-nav nav navbar-right">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Viaja </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Conduce</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#" data-toggle="modal" data-target="#iniciarSesion">Inicia Sesión</a>
+            </li>
+          </ul>
         </div>
       </div>
-    </div>
+    </nav>
   </header>
   <section>
     <div class="container-fluid">
       <div class="row background-header center">
         <div class="col-xs-8 col-xs-offset-4 col-md-4 col-md-offset-8 background-brand">
           <div class="hidden-sm hidden-md hidden-lg padding">
-            <h1>Comieza a viajar con <span><img src="assets/images/logoBlanco.png" alt=""></span></h1><br>
-            <p><a class="btn btn-default" href="#" role="button">Descarga el app</a></p>
+            <h1>Comieza a viajar con
+              <span>
+                <img src="assets/images/logoBlanco.png" alt="">
+              </span>
+            </h1>
+            <br>
+            <p>
+              <a class="btn btn-default" href="#" role="button">Descarga el app</a>
+            </p>
           </div>
           <div class="hidden-xs padding">
-            <h2>Disfruta del viaje<br>Eres el dueño de tu tiempo</h2>
+            <h2>Disfruta del viaje
+              <br>Eres el dueño de tu tiempo</h2>
             <p>Viaja con Labcar</p>
-            <p><a class="btn btn-default text-uppercase" href="#" role="button" data-toggle="modal" data-target="#sign-up">Regístrate</a></p>
+            <p>
+              <a class="btn btn-default text-uppercase" href="#" role="button" data-toggle="modal" data-target="#sign-up">Regístrate</a>
+            </p>
             <div class="modal fade" tabindex="-1" role="dialog" id="sign-up">
               <div class="modal-dialog" role="document">
                 <div class="modal-content sign-up">
                   <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
                   </div>
                   <div class="modal-body">
                     <div class="form-group">
-                        <button type="button" class="btn btn-block btn-lg background-black">¿Ya tienes una cuenta?</button>
+                      <button type="button" class="btn btn-block btn-lg background-black">¿Ya tienes una cuenta?</button>
                     </div>
                     <p class="text-uppercase text-center">O crea una cuenta nueva</p>
                     <form class="form-horizontal">
-                      <div class="form-group"> 
+                      <div class="form-group">
                         <div class="col-sm-6">
                           <input type="email" class="form-control" id="inputEmail3" placeholder="Nombre">
                         </div>
@@ -131,7 +117,9 @@
                       </div>
                       <div class="form-group">
                         <div class="col-sm-12">
-                          <button type="button" class="btn btn-block">¿Cómo te enteraste de nosotros?<span class="glyphicon glyphicon-chevron-down"></span></button>
+                          <button type="button" class="btn btn-block">¿Cómo te enteraste de nosotros?
+                            <span class="glyphicon glyphicon-chevron-down"></span>
+                          </button>
                         </div>
                       </div>
                       <div class="form-group">
@@ -141,16 +129,23 @@
                       </div>
                     </form>
                   </div>
-                </div><!-- /.modal-content -->
-              </div><!-- /.modal-dialog -->
-            </div><!-- /.modal -->
+                </div>
+                <!-- /.modal-content -->
+              </div>
+              <!-- /.modal-dialog -->
+            </div>
+            <!-- /.modal -->
             <p class="line">o bien</p>
-            <p><a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#drive">Conviértete en un conductor</a></p>
+            <p>
+              <a class="btn btn-default" href="#" role="button" data-toggle="modal" data-target="#drive">Conviértete en un conductor</a>
+            </p>
             <div class="modal fade" tabindex="-1" role="dialog" id="drive">
               <div class="modal-dialog" role="document">
                 <div class="modal-content sign-up">
                   <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                      <span aria-hidden="true">&times;</span>
+                    </button>
                   </div>
                   <div class="modal-body">
                     <form>
@@ -210,7 +205,9 @@
           <div class="hidden-xs ">
             <h2>Decarga la nueva app</h2>
             <p>La version actualizada de LabCar está llena de nuevas funciones para llegar a donde quieras aún más fácil y rápido.</p>
-            <p>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupe sabe exactamente a donde ir.</p>
+            <p>Con solo tocar un botón, un auto llega justo a tu ubicación. Súbete y no te preocupe sabe exactamente a donde
+              ir.
+            </p>
           </div>
         </div>
       </div>
@@ -223,7 +220,9 @@
           <div class="padding">
             <h3>Conduce cuando quiera</h3>
             <p>LabCar es una opción flexible para alcanzar tus metas financieras</p>
-            <p><a class="btn btn-brand" href="#" role="button">Conviértete en conductor</a></p>
+            <p>
+              <a class="btn btn-brand" href="#" role="button">Conviértete en conductor</a>
+            </p>
           </div>
         </div>
       </div>
@@ -257,8 +256,8 @@
         </div>
         <div class="col-xs-12 col-md-6">
           <div class="border">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5552.860751078209!2d-67.88126997443233!3d10.223990116286704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e804239c3898455%3A0x8dbeb87605e9aff0!2s4ta+Calle%2C+Guacara%2C+Carabobo!5e0!3m2!1ses-419!2sve!4v1494429362469"  class="padding"
-              width="100%" height="450" frameborder="0" style="border:0" allowfullscreen>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d5552.860751078209!2d-67.88126997443233!3d10.223990116286704!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e804239c3898455%3A0x8dbeb87605e9aff0!2s4ta+Calle%2C+Guacara%2C+Carabobo!5e0!3m2!1ses-419!2sve!4v1494429362469"
+              class="padding" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen>
             </iframe>
           </div>
         </div>
@@ -277,11 +276,21 @@
       <div class="row border-footer flex">
         <div class="col-xs-6 col-md-3 col-sm-3 position-end social">
           <ul class="list-unstyled social-networks list-inline">
-            <li><i class="fa fa-facebook" aria-hidden="true"></i></li>
-            <li><i class="fa fa-twitter" aria-hidden="true"></i></li>
-            <li><i class="fa fa-linkedin" aria-hidden="true"></i></li>
-            <li><i class="fa fa-apple" aria-hidden="true"></i></li>
-            <li><i class="fa fa-play" aria-hidden="true"></i></li>
+            <li>
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </li>
+            <li>
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </li>
+            <li>
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </li>
+            <li>
+              <i class="fa fa-apple" aria-hidden="true"></i>
+            </li>
+            <li>
+              <i class="fa fa-play" aria-hidden="true"></i>
+            </li>
           </ul>
         </div>
         <div class="col-xs-6 col-md-3 col-sm-3">
@@ -309,7 +318,7 @@
             <li>Laboratoria</li>
             <li>Coders</li>
           </ul>
-        </div> 
+        </div>
         <div class="col-xs-6 col-sm-3 col-md-3 position-end">
           <figure class="logo">
             <img src="assets/images/appstore.png" class="img-responsive" alt="">
@@ -331,4 +340,5 @@
   <script type="text/javascript" src="vendors/bootstrap/js/bootstrap.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
 </body>
+
 </html>
